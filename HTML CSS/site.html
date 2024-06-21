@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+      }
+      .B {
+        width: 100%;
+        height: 200px;
+        background-color: #343a40;
+      }
+      .B h1 {
+         
+        display: flex;
+        justify-content: space-around;
+        color: white;
+      }
+
+      .B h4 {
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+      }
+      
+      /* .C{
+            width: 100%;
+            height: 100px;
+            background-color: #e83e8c;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+         }
+         .C ul{
+            color: white;
+            text-align: center;
+            width: 60%;
+            display: flex;
+            list-style: none;
+            justify-content: space-evenly;
+        
+            font-size: 25px;
+             
+         } */
+      .C {
+        width: 100%;
+        height: 100px;
+        background-color: #e83e8c;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .C ul {
+        color: white;
+       
+        width: 70%;
+        display: flex;
+        list-style: none;
+        justify-content: space-evenly;
+        font-size: 20px;
+      }
+      .D {
+        width: 100%;
+        height: 400px;
+        background-image: url(https://omninos.shop/lifeManaged/pic.jpg);
+        background-size: cover;
+      }
+
+      .R {
+        width: 100%;
+        height: 585px;
+        background-color: #dc3545;
+        display: flex;
+        justify-content: center;
+      }
+      .Y {
+        width: 45%;
+        height: 585px;
+        background-color: white;
+      }
+
+      .U {
+        width: 50%;
+        height: 585px;
+        background-color: #e83e8c;
+      }
+      .O {
+        width: 30%;
+        height: 585px;
+        background-color: aqua;
+      }
+      .N {
+        width: 17%;
+        height: 585px;
+        background-color: #e83e8c;
+        display: flex;
+        justify-content: center;
+      }
+
+      .Q {
+        width: 15%;
+        height: 585px;
+        background-color: aliceblue;
+        display: flex;
+        justify-content: center;
+      }
+      .Y h1 {
+        text-align: center;
+        font-size: 32px;
+        padding-top: 20px;
+        color: #dc3545;
+      }
+      .Y h6 {
+        text-align: center;
+        color: black;
+        font-size: 20px;
+        padding-top: 10px;
+        margin: 20px;
+      }
+      .L {
+        width: 65%;
+        height: 585px;
+        background-color: #11a871;
+        display: flex;
+        justify-content: left;
+      }
+      .L h2 {
+        
+        color: #dc3545;
+        font-size: 20px;
+        margin-top: 20px;
+
+        font-size: 32px;
+        display: flex;
+        justify-content: first baseline;
+        align-items: flex-start;
+      }
+      .L p {
+        width: 33%;
+        display: flex;
+          
+        color: black;
+        font-size: 20px;
+        padding-top: 40px;
+        margin: 20px;
+        padding-left: 30px;
+      }
+
+      .z {
+        margin: 0px;
+        padding: 0px;
+        margin-top: 30px;
+        width: 100%;
+        height: 400px;
+        background-color: #a80154;
+        box-sizing: initial;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+      }
+      .three{
+        width: 80%;
+        height: 300px;
+        background-color: lightpink;
+        display: flex;
+        justify-content: center;
+      }
+      .k {
+        width: 25%;
+        height: 300px;
+        background-color: #a80154;
+      }
+      .m {
+        width: 25%;
+        height: 300px;
+        background-color: #a80154;
+      }
+      .n {
+        width: 25%;
+        height: 300px;
+        background-color: #a80154;
+      }
+      .w {
+        width: 25%;
+        height: 300px;
+        background-color: #a80154;
+      }
+      .k h5 {
+        padding: 10px;
+        color: white;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+      }
+      .k img {
+        margin-left: 20px;
+        width: 80%;
+        height: 150px;
+        display: flex;
+        justify-content: center;
+      }
+      .k pre {
+        padding-top: 20px;
+      
+        margin-left: 20px;
+        color:white;
+        font-size: 16px;
+        display: flex;
+        justify-content: left;
+        
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        
+      }
+      .m h5 {
+        padding: 10px;
+        color: white;   
+         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+      }
+      .m img {
+        margin-left: 20px;
+        width: 80%;
+        height: 150px;
+        display: flex;
+        justify-content: center;
+      }
+      .m pre {
+        padding-top: 20px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin-left: 20px;
+        color: white;
+        font-size: 16px;
+        display: flex;
+        justify-content: left;
+        
+      }
+      .n h5 {
+        padding: 10px;
+        color: white;
+        font-size: 20px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        
+        display: flex;
+        justify-content: center;
+      }
+      .n img {
+        margin-left: 20px;
+        width: 80%;
+        height: 150px;
+        display: flex;
+        justify-content: center;
+      }
+      .n pre {
+        padding-top: 20px;
+        margin-left: 20px;
+        color: white;
+        font-size: 16px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        
+        display: flex;
+        justify-content: left;
+         
+      }
+      .w h5 {
+        padding: 10px;
+        color: white;
+        font-size: 20px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        
+        display: flex;
+        justify-content: center;
+      }
+      .w img {
+        margin-left: 20px;
+        width: 80%;
+        height: 150px;
+        display: flex;
+        justify-content: center;
+      }
+      .w pre {
+        padding-top: 20px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color:white;
+        font-size: 16px;
+        display: flex;
+        justify-content: left;
+        text-align: left;
+        margin-left: 20px;
+      }
+      .t {
+        width: 100%;
+        height: 600px;
+        background-color: #1e1b1a;
+        display: flex;
+        justify-content: center;
+      }
+      .a {
+        width: 20%;
+        height: 700px;
+        background-color: #1e1b1a;
+      }
+      .e {
+        width: 33%;
+        height: 700px;
+        background-color: #1e1b1a;
+      }
+      .v {
+        width: 33%;
+        height: 700px;
+        background-color: #1e1b1a;
+      }
+      .r {
+        width: 33%;
+        height: 700px;
+        background-color: #1e1b1a;
+      }
+      .b {
+        width: 23%;
+        height: 700px;
+        background-color: #1e1b1a;
+      }
+      .e h1 {
+        text-align:left;
+        font-size: 20px;
+        padding-top: 20px;
+        color: white;
+        margin-top: 40px;
+      }
+      .e ul li {
+        text-align: left;
+         
+        color: white;
+        font-size: 16px;
+        padding-top: 10px;
+        margin: 20px;
+        margin-right: 40px;
+      }
+      .v h1 {
+        text-align:left;
+        font-size: 20px;
+        margin-top: 40px;
+        padding-top: 20px;
+        margin-left: 15px;
+        color: white;
+      }
+      .v p {
+        text-align: left;
+        color: white;
+        font-size: 16px;
+        padding-top: 10px;
+        margin-left: 40px;
+        margin: 20px;
+      }
+      .v hr {
+        margin-left: 20px;
+      }
+       
+      .r h1 {
+        text-align: left;
+        font-size: 25px;
+        padding-top: 20px;
+        color: white;
+        margin-left: 20px;
+        margin-top: 40px;
+      }
+      .r p {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        text-align: left;
+        font-size: 15px;
+        padding-right: 10px;
+        margin-left: 20px;
+        padding-top: 10px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+       
+      
+.f {
+        width: 100%;
+        height: 200px;
+        background-color: #a80154;
+        display: flex;
+        justify-content: center;
+      }
+.f h5 {
+        font-size: 16px;
+        margin-top: 80px;
+        padding-top: 50px;
+        color: #343a40;
+      }
+.q{
+        height: 600px;
+        width: 100%;
+        /* background-color:#343a40; */
+        display:flex;
+        justify-content: center;    
+    }
+.x{
+        height: 100%;
+        width: 80%;
+        /* background-color: #a80154; */
+        display: flex;
+}
+.one{
+        height: 100%;
+        width: 40%;
+        /* background-color: gray; */
+}
+.one h1{
+         font-size: 26px;
+         /* text-align: center; */
+         padding-top: 20px;
+         margin-top: 20px;
+         color: #dc3545 ;
+      }
+.one p{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 16px;
+         /* text-align: center; */
+         padding-top: 20px;
+         margin-top: 10px;
+         margin-bottom: 10px;
+    }
+.one hr{
+        
+        margin-right: 20px;
+    }
+.two{
+        height: 100%;
+        width: 60%;
+        /* background-color: rgb(30, 16, 225); */
+      } 
+.two h2{
+         font-size: 26px;
+         text-align: left;
+         margin-top: 20px;
+         padding-top: 20px;
+         color: #dc3545 ;
+      }
+.two p{
+         font-size: 18px;
+         text-align: left;
+         padding-top: 0px;
+         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      }
+  
+.linegap{
+            line-height: 2.2rem;
+        }
+.r i{
+    color: white;
+    size: 20px; 
+     margin-left: 30px;
+     padding-top: 10px;
+}
+.sizee{
+        font-size: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="A">
+      <div class="B">
+        <br /><br />
+        <h1>CLEARFIGURE</h1>
+        <br /><br />
+        <h4>DESIGN BY TEMPLATE</h4>
+      </div>
+      <!-- <div class="C">
+             <ul>
+                <li>Homepage</li>
+                <li>About</li>
+                <li>Portfolio</li>
+                <li>contact</li>
+             </ul>
+            </table>
+        </div> -->
+      <div class="C">
+        <ul>
+          <li>Homepage</li>
+          <li>About</li>
+          <li>Portfolio</li>
+          <li>contact</li>
+        </ul>
+      </div>
+      <div class="D"></div>
+
+      <!-- <div class="R">
+        <div class="O"></div>
+        <div class="Y">
+          <h1>INTEGER GRAVIDA</h1>
+          <h6><u>Amet turpis, feugiat et sit amet </u></h6>
+          <hr />
+          <h6><u>Amet turpis, feugiat et sit amet </u></h6>
+          <hr />
+          <h6><u>Amet turpis, feugiat et sit amet </u></h6>
+          <hr />
+          <h6><u>Amet turpis, feugiat et sit amet </u></h6>
+          <hr />
+          <h6><u>Amet turpis, feugiat et sit amet </u></h6>
+          <hr />
+          <h6><u>Amet turpis, feugiat et sit amet </u></h6>
+          <hr />
+          <h6><u>Amet turpis, feugiat et sit amet </u></h6>
+          <hr />
+        </div>
+
+        <div class="N"></div>
+        <div class="L">
+           
+        <div class="Q"></div>
+      </div> -->
+      <!-- <div class="main">
+        <div class="star">
+            <div class="one">
+                 
+            </div>
+            <div class="two"></div>
+        </div> -->
+    <div class="q">
+     <div class="x">
+        <div class="one">
+            <h1>INTEGER GRAVIDA</h1>
+          <p><u>Amet turpis, feugiat et sit amet </u></p>
+          <hr />
+          <p><u>Amet turpis, feugiat et sit amet </u></p>
+          <hr />
+          <p><u>Amet turpis, feugiat et sit amet </u></p>
+          <hr />
+          <p><u>Amet turpis, feugiat et sit amet </u></p>
+          <hr />
+          <p><u>Amet turpis, feugiat et sit amet </u></p>
+          <hr />
+          <p><u>Amet turpis, feugiat et sit amet </u></p>
+          <hr />
+          <p><u>Amet turpis, feugiat et sit amet </u></p>
+          <hr />
+        </div>
+         
+<div class="two">
+    <h2>INTEGER SIT AMET ALIQUET</h2>
+    <p>PHASELLUS NEC ERAT SIT AMET NIBH PELLENTESQUE CONGUE</p>
+    <br><p class="linegap">
+    This is ClearFigure, a free, fully standards-compliant CSS template designed by TEMPLATED.The
+    photos in this template are from Fotograph.This free Template is released uinder the Creative Commons
+    Attribution license,so you're pretty much free to do whatever you want with it (even use it
+    commercially) provided you give us credit for it.Have fun:)
+    </p><br>
+    <p class="linegap" >
+Consectetuer adipiscing elit. Nam pede erat, porta eu, lobortis eget, tempus et, tellus. Etiam neque.
+Vivamus consequat lorem at nisl. Nullam non wisi a sem semper eleifend. Donec mattis libero eget
+urna. Duis pretium velit ac mauris. Proin eu wisi suscipit nulla suscipit interdum. Aenean lectus lorem
+imperdiet at, ultrices eget, ornare et, wisi. Pellentesque adipiscing purus ac magna. Pellentesque
+habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam non wisi a sem 
+semper eleifend. Donec mattis libero eget urna. INTEGER GRAVIDA Amet turpis, feugiat et sit amet 
+Ornare in hendrerit in lectus Semper mod quis eget mi dolore Quam turpis feugiat sit dolor Amet 
+ornare in hendrerit in lectus Quam turpis feugiat sit dolor Consequat etiam lorem phasellus
+    </p>        
+</div>
+     </div>
+        </div>
+      </div>
+      <div class="z">
+        <div class="three">
+          <div class="k">
+            <h5>SUSPENDISSE LACUS</h5>
+            <img src="https://omninos.shop/lifeManaged/pic1.jpg" alt="" />
+            <pre class="linegap=20px">
+  Etiam non felis.Donec ut ante.
+  In id eros.Suspendisse lacus 
+  turpis,cursus egestas at sem.
+   Mauris quam enim,molestie.</pre
+            >
+          </div>
+
+          <div class="m">
+            <h5>FUSCE ULTRICES</h5>
+            <img src="https://omninos.shop/lifeManaged/pic2.jpg" alt="" />
+            <pre>
+  Etiam non felis.Donec ut ante.
+  In id eros.Suspendisse lacus 
+  turpis,cursus egestas at sem.
+  Mauris quam enim,molestie.
+</pre
+            >
+          </div>
+          <div class="n">
+            <h5>FUACE ULTRICES</h5>
+            <img src="https://omninos.shop/lifeManaged/pic3.jpg" alt="" />
+            <pre>
+  Etiam non felis.Donec ut ante.
+  In id eros.Suspendisse lacus 
+  turpis,cursus egestas at sem.
+  Mauris quam enim,molestie.
+</pre
+            >
+          </div>
+          <div class="w">
+            <h5>FUACE ULTRICES</h5>
+            <img src="https://omninos.shop/lifeManaged/pic4.jpg" alt="" />
+            <pre>
+    Etiam non felis.Donec ut ante.
+    In id eros.Suspendisse lacus 
+    turpis,cursus egestas at sem.
+    Mauris quam enim,molestie.
+ </pre
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="t">
+      <div class="a"></div>
+      <div class="e">
+        <h1>LATEST POST</h1>
+        <ul type="none">
+            <li><u>Amet turpis, feugiat et sit amet</u></li> <hr>
+            <li><u>Amet turpis, feugiat et sit amet</u></li> <hr>
+            <li><u>Amet turpis, feugiat et sit amet</u></li> <hr>
+            <li><u>Amet turpis, feugiat et sit amet</u></li> <hr>
+            <li><u>Amet turpis, feugiat et sit amet</u></li> <hr>
+            <li><u>Amet turpis, feugiat et sit amet</u></li> <hr>
+            <li><u>Amet turpis, feugiat et sit amet</u></li> <hr>
+            </ul>
+        <!-- <p><u>Amet turpis, feugiat et sit amet </u></p>
+        <hr />
+        <p><u>Amet turpis, feugiat et sit amet </u></p>
+        <hr />
+        <p><u>Amet turpis, feugiat et sit amet </u></p>
+        <hr />
+        <p><u>Amet turpis, feugiat et sit amet </u></p>
+        <hr />
+        <p><u>Amet turpis, feugiat et sit amet </u></p>
+        <hr />
+        <p><u>Amet turpis, feugiat et sit amet </u></p>
+        <hr />
+        <p><u>Amet turpis, feugiat et sit amet </u></p>
+        <hr /> -->
+      </div>
+      <div class="v">
+        <h1>LATEST POST</h1>
+        <p><u>Amet turpis, feugiat et sit amet </u></p>
+        <hr />
+        <p><u>Amet turpis, feugiat et sit amet </u></p>
+        <hr />
+        <p><u>Amet turpis, feugiat et sit amet </u></p>
+        <hr />
+        <p><u>Amet turpis, feugiat et sit amet </u></p>
+        <hr />
+        <p><u>Amet turpis, feugiat et sit amet </u></p>
+        <hr />
+        <p><u>Amet turpis, feugiat et sit amet </u></p>
+        <hr />
+        <p><u>Amet turpis, feugiat et sit amet </u></p>
+        <hr />
+      </div>
+      <div class="r">
+        <h1>FOLLOW US</h1>
+        <p>
+Proin eu wisi suscipit nulla suscipit interdum.Aenean lectus lorem,imperdiet magna.</p>
+<i class="fa-brands fa-twitter sizee"></i>
+<i class="fa-brands fa-facebook sizee"></i>
+<i class="fa-solid fa-wifi sizee"></i>    
+      </div>
+      <div class="b"></div>
+    </div>
+    <div class="f">
+      <h5>
+        @UNTITLED ALL RIGHTS RESERVED.|PHOTOS BY FOTOGRAPH|DESIGN BY TEMPLATED.
+      </h5>
+    </div>
+  </body>
+</html>

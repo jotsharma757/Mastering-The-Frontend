@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<!-- saved from url=(0034)https://omninos.co.in/lifeManaged/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gotam</title>
+    <link rel="stylesheet" href="./vimg_files/page2.css">
+    <link rel="stylesheet" href="./vimg_files/aos.css">
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .nav {
+            display: flex;
+        }
+
+        .nav ul {
+            background-color: white;
+            overflow: auto;
+            margin-left: 45%;
+        }
+
+        .nav ul li {
+            float: left;
+            list-style: none;
+            margin: 35px 20px;
+            position: relative;
+        }
+
+        .nav ul li a {
+            text-decoration: none;
+            padding: 10px 10px;
+            color: black;
+        }
+
+        .btn {
+            float: right;
+            margin: 20px 90px 20px 10px;
+        }
+
+        button {
+            padding: 17px;
+            background-color: #ff8000;
+            color: white;
+            border: none;
+            font-size: 17px;
+            font-family: Arial, Helvetica, sans-serif;
+            border-radius: 5px;
+            margin: -5px;
+            cursor: pointer;
+        }
+
+        .logo {
+            padding-left: 50px;
+            padding-top: 10px;
+        }
+
+        .main {
+            text-align: center;
+            font-size: 30px;
+            font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+            padding-top: 30px;
+            padding-bottom: 20px;
+            background-color: black;
+            color: white;
+        }
+
+        .container {
+            display: flex;
+        }
+
+        .container img {
+            width: 33.33%;
+        }
+
+        .img {
+            background-image: url("top-1.png");
+            background-size: cover;
+            width: 33.33%;
+            height: 617px;
+        }
+
+        .img2 {
+            background-image: url("top-1.png");
+            width: 33.33%;
+            height: 617px;
+            background-size: cover;
+        }
+
+        .black h1 {
+            color: white;
+            text-align: center;
+            padding: 50% 10% 0% 10%;
+            line-height: 1.8em;
+        }
+
+        .black {
+            height: 617px;
+            background-color: black;
+            opacity: 0.5;
+            color: white;
+            display: none;
+        }
+
+        .img:hover .black {
+            display: block;
+        }
+
+        .black button {
+            margin-left: 120px;
+            margin-top: 20px;
+            opacity: 1 !important;
+        }
+
+        .black2 h1 {
+            color: white;
+            text-align: center;
+            padding: 50% 10% 0% 10%;
+            line-height: 1.8em;
+        }
+
+        .black2 {
+            height: 617px;
+            background-color: black;
+            opacity: 0.5;
+            color: white;
+            display: none;
+        }
+
+        .img2:hover .black2 {
+            display: block;
+        }
+
+        .black2 button {
+            margin-left: 120px;
+            margin-top: 20px;
+        }
+
+        .believe h1 {
+            font-size: 100px;
+            text-align: center;
+            padding: 20px 40px;
+        }
+
+        .main2 {
+            width: 100%;
+            display: flex;
+            padding-top: 5%;
+        }
+
+        .arrow {
+            width: 25%;
+            padding-left: 9%;
+        }
+
+        .arrow p {
+            font-size: 26px;
+            margin-left: -90px;
+            padding-top: 20px;
+            text-align: center;
+        }
+
+        .money {
+            width: 25%;
+            padding-left: 9%;
+        }
+
+        .money p {
+            font-size: 26px;
+            margin-left: -90px;
+            padding-top: 20px;
+            text-align: center;
+        }
+
+        .documents {
+            width: 25%;
+            padding-left: 9%;
+        }
+
+        .documents p {
+            font-size: 26px;
+            margin-left: -90px;
+            padding-top: 30px;
+            text-align: center;
+        }
+
+        .way {
+            width: 25%;
+            padding-left: 9%;
+        }
+
+        .way p {
+            font-size: 26px;
+            margin-left: -90px;
+            padding-top: 20px;
+            text-align: center;
+        }
+
+        .shedule {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-top: 50px;
+        }
+
+        .shedule button {
+            padding: 20px 80px;
+            font-size: 30px;
+            cursor: pointer;
+        }
+
+        .blue {
+            background-color: #56c8e2;
+            margin-top: 80px;
+            display: flex;
+            height: 750px;
+        }
+
+        .blue1 {
+            padding-top: 100px;
+            padding-left: 90px;
+            width: 80%;
+        }
+
+        .blue1 h1 {
+            font-size: 70px;
+            color: white;
+        }
+
+        .blue1 p {
+            padding-left: 0px;
+            font-size: 40px;
+            color: white;
+        }
+
+        .blue1 button {
+            padding: 20px 60px;
+            margin-top: 20px;
+            margin-left: 5px;
+            font-size: 30px;
+        }
+
+        .blue2 {
+            display: flex;
+        }
+
+        .blue2 img {
+            padding-top: 100px;
+            padding-left: 50px;
+            height: 100px;
+            width: 100px;
+        }
+
+        .heading h1 {
+            color: white;
+            padding: 100px 0px 0px 50px;
+        }
+
+        .heading p {
+            color: white;
+            padding: 10px 200px 0px 50px;
+            font-size: 18px;
+            line-height: 1.9em;
+        }
+
+        .blue3 img {
+            padding-top: 70px;
+            padding-left: 0px;
+            height: 100px;
+            width: 100px;
+            margin-left: -95px;
+        }
+
+        .heading2 {
+            margin-top: -200px;
+        }
+
+        .heading3 {
+            margin-top: -200px;
+        }
+
+        .bgimg {
+            background-image: url("vido-bg.png");
+            height: 650px;
+            width: auto;
+            background-size: cover;
+        }
+
+        .bgimg img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            padding-top: 270px !important;
+
+        }
+
+        .financial {
+            text-align: center;
+            font-size: 30px;
+            margin: 40px 70px 0px 70px;
+            padding: 60px;
+
+
+        }
+
+        .financial p {
+            color: #ff8000;
+            text-align: center;
+            font-size: 25px;
+            padding-top: 20px;
+            margin-left: -60px;
+            font-weight: 800;
+            letter-spacing: 0.04em;
+        }
+
+        .bg2 {
+            background-image: url("desert.jpeg");
+            height: 803px;
+            background-size: cover;
+            background-repeat: no-repeat;
+
+        }
+
+        .bg2 h1 {
+            text-align: center;
+            color: white;
+            padding: 40px 0px 30px 0px;
+            font-size: 80px;
+        }
+
+        .bg2 p {
+            text-align: center;
+            color: white;
+            font-size: 30px;
+        }
+
+        .main3 {
+            display: flex;
+        }
+
+        .worked {
+            width: 33.33%;
+
+            height: 400px;
+            margin-top: 20px;
+
+        }
+
+        .worked img {
+            height: 200px;
+            width: 200px;
+            padding-left: 100px;
+            padding-top: 20px;
+        }
+
+        .worked h2 {
+            color: white;
+            padding: 5px 10px 10px 100px;
+        }
+
+        .worked p {
+            padding: 0px 100px 10px 120px;
+            font-size: 20px;
+        }
+
+        .btn {
+            background-color: transparent !important;
+            border: 1px solid white;
+            font-size: 20px;
+
+        }
+
+        button.btn-2 {
+            margin: 20px;
+            padding: 20px 40px;
+            background-color: transparent;
+            border: 1px solid white;
+        }
+
+        .worked:hover {
+            background-color:black;
+            opacity: 0.5;
+
+            border: 1px solid white;
+            border-radius: 5px;
+        }
+
+        .workedd img {
+            height: 200px;
+            width: 200px;
+            padding-left: 100px;
+            padding-top: 20px;
+        }
+
+        .workedd {
+            width: 25%;
+            margin-top: 20px;
+            margin-left: 130px;
+        }
+
+        .workedd h2 {
+            color: white;
+            padding: 5px 30px 10px 150px;
+        }
+
+        .workedd p {
+            padding: 0px 100px 10px 120px;
+            font-size: 20px;
+        }
+
+        button.btn-3 {
+            margin: 20px;
+            padding: 20px 40px;
+
+
+            border: 1px solid white;
+        }
+
+        .workedd:hover {
+            background-color:black;
+            opacity: 0.5;
+
+            border: 1px solid white;
+            border-radius: 5px;
+        }
+
+        .worked {
+            width: 25%;
+
+            height: 570px;
+            margin-top: 20px;
+            margin-left: 50px;
+
+        }
+
+        .workeddd {
+            margin-top: 20px;
+            width: 25%;
+            margin-left: 150px;
+        }
+
+        .workeddd img {
+            margin-top: 20px;
+            padding-left: 100px;
+
+        }
+
+        .workeddd h2 {
+            color: white;
+            padding-left: 140px;
+            margin-top: 10px;
+        }
+
+        .workeddd p {
+            font-size: 20px;
+            padding: 20px 100px 10px 120px;
+        }
+
+        .workeddd:hover {
+            background-color:black;
+            opacity: 0.5;
+
+            border: 1px solid white;
+            border-radius: 5px;
+        }
+
+        .bottom {
+            background-color: #171717;
+            width: 100%;
+            display: flex;
+            height: 400px;
+        }
+
+        .b1 {
+            width: 33.33%;
+        }
+
+        .b1 h1 {
+            color: #ff8000;
+            font-size: 20px;
+            padding-top: 50px;
+            padding-left: 150px;
+
+        }
+
+        .b1 p {
+            padding-top: 10px;
+            padding-left: 150px;
+            color: white;
+
+        }
+
+        .b2 {
+            width: 33.33%;
+        }
+
+        .b2 h1 {
+            color: #ff8000;
+            font-size: 20px;
+            padding-top: 50px;
+            padding-left: 210px;
+
+        }
+
+        .b2 ul li {
+            list-style: none;
+            padding-left: 210px;
+            padding-top: 10px;
+
+        }
+
+        .b2 ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .b3 {
+            width: 33.33%;
+
+        }
+
+        .b3 h1 {
+            color: #ff8000;
+            font-size: 20px;
+            padding-top: 50px;
+            padding-left: 150px;
+
+        }
+
+        .b3 p {
+            padding-top: 10px;
+            padding-left: 150px;
+            color: white;
+            line-height: 1.8em;
+
+        }
+
+        .b3 p a {
+            text-decoration: none;
+            color: #ff8000;
+        }
+
+        .b3im {
+            padding-left: 155px;
+        }
+
+        .b3im img {
+            padding-right: 20px;
+        }
+    </style>
+</head>
+
+<body data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0">
+    <script src="./vimg_files/aos.js.download"></script>
+    <script>
+        AOS.init();
+    </script>
+    <header>
+        <div class="nav">
+            <div class="logo">
+                <img src="./vimg_files/logo.png" alt="">
+            </div>
+            <ul>
+                <li><a href="http://omninos.life/lifeManaged/page2.html#">About</a></li>
+                <li><a href="http://omninos.life/lifeManaged/page2.html#">How we Work</a></li>
+                <li><a href="http://omninos.life/lifeManaged/page2.html#">How we paid</a></li>
+                <div class="btn">
+                    <button>Shedule A Call</button>
+                </div>
+            </ul>
+        </div>
+    </header>
+    <div class="main">
+        <h1 data-aos="fade-up" style="transition: 2s" class="aos-init aos-animate">
+            WE CREATE <span style="color: #ff8000"> PATHWATS</span> TO EXPERIENCE
+            <span style="color: #ff8000">LIFE ON YOUR TERMS</span>
+        </h1>
+    </div>
+    <div class="container">
+        <img src="./vimg_files/top-1.png" alt="" height="617px">
+        <div class="img">
+            <div class="black">
+                <h1>
+                    “I want professional advice before I make a significant investment. Will it derail my financial
+                    goals?”
+                </h1>
+                <button>You can Never Be Too Careful</button>
+            </div>
+        </div>
+        <div class="img2">
+            <div class="black2">
+                <h1>
+                    “I want professional advice before I make a significant investment. Will it derail my financial
+                    goals?”
+                </h1>
+                <button>You can Never Be Too Careful</button>
+
+            </div>
+        </div>
+    </div>
+    <div class="believe">
+        <h1>
+            We believe no matter what stage of life you’re in...
+        </h1>
+    </div>
+    <div class="main2">
+        <div class="arrow aos-init" data-aos="fade-down-left" style="transition:5s">
+            <img src="./vimg_files/arrowlogo.png" alt="">
+            <p>A life managed well is not ruled by numbers &amp; plans, but freed by them.</p>
+        </div>
+        <div class="money aos-init" data-aos="fade-down-left" style="transition:5s">
+            <img src="./vimg_files/moneylogo.png" alt="">
+            <p>A life managed well is not ruled by numbers &amp; plans, but freed by them.</p>
+        </div>
+        <div class="documents aos-init" data-aos="fade-down-left" style="transition:5s">
+            <img src="./vimg_files/documentlogo.png" alt="">
+            <p>Poor decisions are too often made because of a lack of clarity.</p>
+        </div>
+        <div class="way aos-init" data-aos="fade-down-left" style="transition:5s">
+            <img src="./vimg_files/waylogo.png" alt="">
+            <p>This industry’s model ofrewarding good sales over good advice is outdated.</p>
+        </div>
+
+    </div>
+    <div class="shedule">
+        <button type="button">Shedule A Call</button>
+
+    </div>
+    <div class="blue">
+        <div class="blue1">
+            <h1>We are<br> independent <br>financial planning &amp; life management coaches</h1>
+            <p>You want to trust that your financial plans &amp; future are managedwell.</p>
+            <button type="button"> Shedule A CAll</button>
+        </div>
+        <div class="blue2">
+            <img src="./vimg_files/hand.png" alt="">
+            <div class="heading">
+                <h1>FIDUCIARY</h1>
+                <p>Big word...simple concept. At the core of our business is doing what’s best for YOU, not us.</p>
+                <br>
+                <div class="blue3">
+                    <img src="./vimg_files/hand.png" alt="">
+                    <div class="heading2">
+                        <h1>COMMISSION-FREE</h1>
+                        <p>Commissions suck the life out of your financial portfolio. Our transparent fee schedule makes
+                            it clear
+                            and easy to understand how we get paid. No hidden fees, ever.</p>
+
+                    </div>
+                    <div class="blue4">
+                        <img src="./vimg_files/hand.png" alt="">
+                        <div class="heading3">
+                            <h1>CFP®️ PROFESSIONAL</h1>
+                            <p>A highly desired, and not-easy-to-achieve designation that ensures we’re always improving
+                                ourselves and
+                                our knowledge so we can serve you better.</p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="bgimg">
+        <center><img src="./vimg_files/play.png" alt="" height="200px" width="200px"></center>
+
+    </div>
+    <div class="financial">
+        <h1>
+            <i>“But in the end, financial decisions aren’t about getting rich. They’re about getting what you
+                want—getting
+                happy.”</i>
+        </h1>
+        <p>Carl Richards, The Behavior Gap</p>
+    </div>
+    <div class="bg2">
+        <h1>Life Managed Case Studies</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
+        <div class="main3">
+            <div class="worked">
+
+                <img src="./vimg_files/round-1.png" alt="">
+                <h2>WORK OPTIONAL</h2>
+                <p>Mark and Jennifer don’t have a set date for retirement — not because they can’t retire, but because
+                    they’re
+                    not sure they ever want to stop working completely.</p>
+                <center><button type="button" class="btn-2"> Click Me</button></center>
+            </div>
+            <div class="workedd">
+                <img src="./vimg_files/round-2.png" alt="">
+                <h2>RETIRED</h2>
+                <p>Mark and Jennifer don’t have a set date for retirement — not because they can’t retire, but because
+                    they’re
+                    not sure they ever want to stop working completely.</p>
+                <center><button type="button" class="btn-3"> Click Me</button></center>
+            </div>
+            <div class="workeddd">
+                <img src="./vimg_files/round-3.png" alt="">
+                <h2>NEARING</h2>
+                <p>Mark and Jennifer don’t have a set date for retirement — not because they can’t retire, but because
+                    they’re
+                    not sure they ever want to stop working completely.</p>
+                <center><button type="button" class="btn-2"> Click Me</button></center>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <div class="bottom">
+            <div class="b1 aos-init" data-aos="0" style="transition: 5s;">
+                <h1>ABOUT LIFE MANAGED</h1>
+                <p>The material on our website is for informational purposes only. We are not asking you to buy or sell
+                    a
+                    security and are not offering you investment advice.Information on our website is believed to be
+                    reliable.
+                    Please understand it is not guaranteed. Past performance is not a guarantee. It is also not reliable
+                    indicator
+                    of future results. Investing means taking risks. Your account value could decline or rise a lot
+                    <br> <br> <br> <br> <br> <br>© 2020 LifeManaged All rights reserved.
+                </p>
+            </div>
+            <div class="b2 aos-init" data-aos="0" style="transition: 5s;">
+                <h1>
+                    OUR LINKS
+                </h1>
+                <ul>
+                    <li><a href="http://omninos.life/lifeManaged/page2.html#">Home</a></li>
+                    <li><a href="http://omninos.life/lifeManaged/page2.html#">About</a></li>
+                    <li><a href="http://omninos.life/lifeManaged/page2.html#">How we Work</a></li>
+                    <li><a href="http://omninos.life/lifeManaged/page2.html#">How we paid</a></li>
+                    <li><a href="http://omninos.life/lifeManaged/page2.html#">Shedule a call</a></li>
+                </ul>
+            </div>
+            <div class="b3 aos-init" data-aos="0" style="transition: 5s;">
+                <h1>CONTACT US</h1>
+                <p>134 N. Central Ave., Suite 104<br>
+                    Phoenix, AZ 85012<br>
+                    phone:<a href="http://omninos.life/lifeManaged/page2.html#">(602)931-5043</a><br>
+                    Email:<a href="http://omninos.life/lifeManaged/page2.html#">info@lifemanged.com</a></p>
+                <br>
+                <div class="b3im">
+                    <img src="./vimg_files/5968764.png" height="40px" width="40px" alt="">
+                    <img src="./vimg_files/2504839.png" height="40px" width="40px" alt="">
+                    <img src="./vimg_files/888846.png" height="40px" width="40px" alt="">
+
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+</body></html>

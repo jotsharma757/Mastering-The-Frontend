@@ -1,0 +1,897 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+* {
+    padding: 0px;
+    margin: 0px;
+}
+.one{
+    background-color: white;
+    width: 100%;
+    height: 80px;
+    display: flex;
+}
+.two{
+    background-color: white;
+    width: 40%;
+    height: 80px;
+}
+.two img{
+    height: 70px;
+    width: 30%;
+    padding-left: 30px;
+}
+.three{
+    height: 80%;
+    width: 80%;
+    background-color: white;
+    display: flex;
+    justify-content: end;
+    margin-right: 10px;
+}
+.ui{
+    width: 70%;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    align-items: center;
+    padding-top: 20px;
+    margin-left: 0px;
+    background-color: white;
+}
+.sdle{
+    height: 49px;
+    width: 77%;
+    margin-left:0px;
+    margin-right: 50px;
+    padding-right: 17px;
+    padding-left: 10px;
+    text-align: left;
+    border-radius: 5px;
+    color: white;
+    background-color: #ff8000;
+    border: none;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+.four{
+    height: 110px;
+    width: 100%;
+    background-color: black;
+}
+.four h1{
+    font-size: 53px;
+    padding-left: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:white;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-align: left;
+    margin: 0%;
+}
+.full{
+    height: 700px;
+    width: 100%;
+    background-color: #ff8000;
+    display: flex;
+    justify-content: center;
+}
+.hr1{
+    height: 700px;
+    width: 510px;
+    background-color: #ff8000;
+    background-image: url(top-1.png);
+    background-size: cover;
+}
+.hr2{
+    height: 700px;
+    width: 520px;
+    background-color: #ff8000;
+    background-image: url(top-1.png);
+    background-size: cover;
+}
+.txt2{
+    height: 100%;  
+    width: 100%;
+    color: white;
+    display: none;
+    background-color: rgba(0, 0,0,0.5);
+}
+.txt2 p{
+    font-size: 40px;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 50%;
+    margin-bottom: 30px;
+}
+.txt2 button{
+    height: 50px;
+    width: 50%;
+    margin: 120px;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding-top: 10px;
+    color: white;
+    background-color: orange;
+    border: none;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+.hr2:hover .txt2{
+    display: block;
+    justify-content: end;
+    align-items: center;
+}
+.hr3{
+    height: 700px;
+    width: 520px;
+    background-color: #ff8000;
+    background-image: url(top-1.png);
+    background-size: cover;
+}
+.txt3{
+    height: 100%;
+    width: 100%;
+    color: white;
+    display: none;
+    background-color: rgba(0, 0,0,0.5);
+}
+.txt3 p{
+    font-size: 42px;
+    text-align: center;
+    padding-top: 50%;
+    padding-bottom: 20px;
+}
+.txt3 button{
+    height: 50px;
+    width: 50%;
+    margin: 120px;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding-top: 10px;
+    color: white;
+    background-color: orange;
+    border: none;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+.hr3:hover .txt3{
+    display: block;
+    justify-content: end;
+    align-items: center;
+}
+.col{
+    height: 300px;
+    width: 100%;
+    background-color: white;
+}
+.col h1{
+    font-size: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+    padding-left: 20px;
+    text-align: center;
+}
+.seven{
+    height: 350px;
+    width: 95%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+}
+.first{
+    height: 350px;
+    width: 20%;
+    background-color: white;
+}
+.first img{
+    width: 50%;
+    height: 150px;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+.first p{
+    text-align: center;
+    font-size: 26px;
+    color: black;
+    padding-top: 20px;
+}
+.second{
+    height: 350px;
+    width: 23%;
+    background-color:white;
+    margin-left: 30px;
+}
+.second img{
+    width: 50%;
+    height: 150px;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+.second p{
+    text-align: center;
+    font-size: 26px;
+    color: black;
+    padding-top: 20px;
+}
+.third{
+    height: 350px;
+    width: 23%;
+    background-color:white;
+    margin-left: 30px;
+}
+.third img{
+    width: 50%;
+    height: 150px;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+.third p{
+    text-align: center;
+    font-size: 26px;
+    color: black;
+    padding-top: 20px;
+}
+.fourth{
+    height: 350px;
+    width: 25%;
+    background-color:white;
+    margin-left: 30px;
+}
+.fourth img{
+    width: 50%;
+    height: 150px;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+.fourth p{
+    text-align: center;
+    font-size: 26px;
+    color: black;
+    padding-top: 20px;
+}
+.call{
+    width: 100%;
+    height: 170px;
+    background-color: white;
+}
+.o {
+    height: 70px;
+    width: 25%;
+    margin-left: 600px;
+    padding: 17px;
+    border-radius: 5px;
+    margin-top: 40px;
+    color: white;
+    background-color: #ff8000;
+    border: none;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+.eight{
+    height: 570px;
+    width: 100%;
+    background: skyblue;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+}
+.point{
+    background-color: skyblue;
+    height: 550px;
+    width: 100%;
+}
+.h1{
+    background-color:skyblue;
+    height: 250px;
+    width: 90%;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 70px;
+    padding-left: 50px;
+    color: white;
+    padding-bottom: 0px;
+}
+.p1{
+    height: 30px;
+    width: 100%;
+    font-size: 35px;
+    color: white;
+    font-family:'Times New Roman', Times, serif ; 
+    padding-left: 10px;
+    padding-top: 0px;
+    margin-left: 30px;
+    padding-bottom: 70px;
+}
+.button{
+    height: 75px;
+    width: 45%;
+    margin-left: 50px;
+    padding: 0px;
+    border-radius: 5px;
+    margin-top: 0px;
+    color: white;
+    background-color:#ff8000;
+    border: none;
+    font-size: 30px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+.fiction{
+    background-color:skyblue;
+    height: 552px;
+    width: 20%;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+}
+.poto1{
+    height: 70px;
+    width: 55%;
+    padding-top: 80px;
+    text-align: left;
+    margin-bottom: 50px;
+    margin-right: 40px;
+    display:flex;
+}
+.poto2 img{
+    height: 70px;
+    width: 55%;
+    padding-top: 30px;  
+    margin-top: 10px;
+    margin-right: 40px;
+    text-align: left;
+}
+.poto3 img{
+    height: 70px;
+    width: 55%;
+    padding-top: 30px;  
+    margin-top: 60px;
+    margin-right: 40px;
+    
+    text-align: left;
+}
+.tan{
+    background-color:skyblue;
+    width: 98%;
+    height: 97%;
+    margin-right: 0px;
+    display:block;
+    justify-content: center;
+}
+.top{
+    background-color: skyblue;
+    width: 98%;
+    height: 24%;
+}
+.tan h1{
+    padding-top: 70px;
+    margin-left: 10px;
+    color: white;
+}
+.tan p{
+    padding-top: 10px;
+    font: 20px;
+    margin-left: 10px;
+    color: white;
+}
+.top1{
+    background-color:skyblue;
+    width: 98%;
+    height: 27%;
+}
+.top1 h1{
+    padding-top: 90px;
+    margin-left: 10px;
+    color: white;
+}
+.top1 p{
+    padding-top: 10px;
+    font: 20px;
+    margin-left: 10px;
+    color: white;
+}
+.top1{
+    background-color:skyblue;
+    width: 98%;
+    height: 27%;
+}
+.top2 h1{
+    padding-top: 100px;
+    margin-left: 10px;
+    height: 30%;
+    color: white;
+}
+.top2 p{
+    padding-top: 10px;
+    font: 20px;
+    text-align: left;
+    color: white;
+}
+.bg{
+    height: 700px;
+    width: 100%;
+    background-color:black;
+    background-image: url( https://omninos.co.in/lifeManaged/vido-bg.png);
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+.bg img{
+    height: 180px;
+    width: 180px;
+    margin-left: 30px;
+}
+.too{
+    height: 380px;
+    width: 100%;
+    background-color: white;
+}
+.too h1{
+    padding-top: 50px;
+    margin-left: 30px;
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.too p{
+    text-align: center;
+    padding-top: 40px;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.class{
+    background-color: #ff8000;
+    height: 850px;
+    width: 100%;
+    background-image: url(desert.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.class h1{
+    padding-top: 50px;
+    font-size: 80px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+  }
+.class p{
+    text-align: center;
+    padding-top: 40px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+} 
+.main{
+    height: 700px;
+    width: 100%;
+    display: flex;
+}
+
+.lss{
+    height: 570px;
+    width: 25%;
+    margin-top: 30px;
+    margin-left: 50px;
+    display: block;
+}
+.lss img{
+    margin-left: 50px;
+    padding-left: 40px;
+    width: 50%;
+    height: 180px;
+}
+.lss h2{
+    font-size: 20px;
+    width: 100%;
+    color: white;
+    margin-left: 50px;
+    padding-left: 60px;
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+ }
+.lss pre{
+    margin-left: 50px;
+    padding-left: 60px;
+    padding-bottom: 40px;
+    line-height: 13px;
+    font-size: 20px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+ .btn button{
+    
+    height: 54px;
+    width: 40%;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 120px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+
+ }
+ .lss:hover{
+    background-color: black;
+    opacity: 0.5;
+ }
+ .roh{
+    margin: 20px;
+    height: 570px;
+    width: 23%;
+    margin-left: 150px;
+    
+}
+.roh img{
+    padding-left: 40px;
+    padding-top: 10px;
+    width: 50%;
+    height: 165px;
+}
+.roh h2{
+    font-size: 20px;
+    width: 100%;
+    padding-left: 80px;
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+ }
+.roh pre{
+    padding-top: 25px;
+    padding-left: 10px;
+    padding-bottom: 45px;
+    line-height: 13px;
+    font-size: 20px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+ .bn button{
+    height: 50px;
+    width: 40%;
+    border: 1px solid white;
+   border-radius: 5px;
+   background-color: transparent;
+   color:#ff8000;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 70px;
+ }
+ .roh:hover{
+    background-color: black;
+    opacity: 0.5;
+ }
+
+ .roh1{
+    margin: 20px;
+    height: 570px;
+    width: 23%;
+    margin-left: 150px;
+   color: white;
+}
+.roh1 img{
+    padding-left: 40px;
+    padding-top: 10px;
+    width: 50%;
+    height: 165px;
+}
+.roh1 h2{
+    font-size: 20px;
+    width: 100%;
+    padding-left: 80px;
+    font-size: 24px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+ }
+.roh1 pre{
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-bottom: 45px;
+    line-height: 13px;
+    font-size: 20px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+ .bn button{
+    height: 54px;
+    width: 40%;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 70px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+ }
+ .roh1:hover{
+    background-color: black;
+    opacity: 0.5;
+ }
+   
+.footer{
+    background-color: black;
+    height: 350px;
+    width: 100%;
+    display: flex;
+}
+    
+.footer1{
+    height: 350px;
+    width: 38%;
+}
+.footer1 h1{
+    padding-top: 30px;
+    color: #ff8000;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 150px;
+}
+.footer1 p{
+    padding-top: 10px;
+    color: white;
+    font-size: 15px;
+    margin-left: 150px;
+ }  
+.footer2{
+    height: 350px;
+    width: 30%;
+    background-color: black;
+  }
+.footer2 h1{
+    padding-top: 30px;
+    color: #ff8000;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 60px;
+  }
+.link{
+    padding-top: 10px;
+    line-height: 22px;
+    list-style: none;
+    font-size: 15px;
+    color: white;
+    margin-left: 60px;
+} 
+.footer3{
+    height: 350px;
+    width: 20%;
+}
+.footer3 h1{
+    padding-top: 30px;
+    color: #ff8000;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 100px;
+  }
+.footer3 p{
+    padding-top: 10px;
+    line-height: 22px;
+    list-style: none;
+    font-size: 15px;
+    color: white;
+    margin-left: 100px;
+}
+.notf1{
+    height: 200px;
+    width: 40%;
+    padding-top: 20px;
+    margin-left: 100px ;
+     
+  }
+  .notf2{
+    height: 200px;
+    width: 40%;
+    padding-top: 20px;
+    margin-left: 5px ;
+  }
+  .notf3{
+    height: 200px;
+    width: 40%;
+    padding-top: 20px;
+    margin-left: 5px ;
+  }
+   
+</style> 
+</head>
+<body>
+<div class="one">
+<div class="two">
+   <img src="https://omninos.co.in/lifeManaged/logo.png" alt="">
+</div>
+<div class="three">
+<ul class="ui">
+    <li>About</li>
+    <li>How we work</li>
+    <li>How we paid</li>
+    <li ><button class="sdle">Schedule a Call</button></li>
+</ul>
+</div>
+</div>
+<div class="four">
+<h1>
+    <span style="color: white;">WE CREATE</span>
+    <span style="color: #ff8000;">PATHWAYS</span>
+    <span style="color: white;">TO EXPERIENCE</span>
+    <span style="color: #ff8000;">LIFE ON YOUR TERMS</span></h1>
+</h1>
+</div>
+<div class="full">
+<div class="hr1"> </div>
+<div class="hr2">
+<div class="txt2">
+    <p>"I want professional advice <br> before I make a significant <br>investment. Will it derail my
+    <br> financial goals?"</p>
+    <button class="button">You can never be too careful</button>
+</div>
+</div>
+<div class="hr3">
+<div class="txt3">
+    <p>"I want professional advice <br> before I make a signifiacnt <br>investment.Will it derail my
+    <br> financial goals?"</p>
+    <button class="button">You can never be too careful</button>
+</div></div>
+</div>
+<div class="col">
+    <h1>We believe no matter what stage of life you're in... </h1>
+</div>
+<div class="seven">
+<div class="first">
+    <img src="https://omninos.co.in/lifeManaged/arrowlogo.png" alt="">
+    <p>A life managed well is not <br>ruled by numbers & plans,but <br>
+    freed by them.</p>
+</div>
+<div class="second">
+    <img src="https://omninos.co.in/lifeManaged/moneylogo.png" alt="">
+    <p>A life managed well is not <br>ruled by numbers & plans,but <br>
+    freed by them.</p>
+</div>
+<div class="third">
+    <img src="https://omninos.co.in/lifeManaged/documentlogo.png" alt="">
+    <p>Poor decisions are too often <br> made because of <br> a lack of clarity.</p></div>
+<div class="fourth">
+    <img src="https://omninos.co.in/lifeManaged/waylogo.png" alt="">
+    <p>This industry’s model <br>ofrewarding good sales over <br> good advice is outdated.</p></div>
+</div>  
+<div class="call">
+    <button class="o">Schedule Call</button>
+</div>
+<div class="eight">
+<div class="point">
+    <h1 class="h1">We are <br> independent <br>financial planning & life <br> management coaches</h1>
+    <p class="p1">You want to trust that your financial plans & future are managedwell.</p>
+    <button class="button">Schedule Call</button>
+</div>
+<div class="fiction">
+<div class="poto1">
+    <img src="https://omninos.co.in/lifeManaged/hand.png" alt="">
+</div>
+<div class="poto2">
+    <img src="https://omninos.co.in/lifeManaged/hand.png" alt="">
+</div>
+<div class="poto3">
+    <img src="https://omninos.co.in/lifeManaged/hand.png" alt="">
+</div>
+</div>
+<div class="tan">
+<div class="top">
+    <h1>FIDUCIARY</h1>
+    <p>Big word...simple concept. At the core of our business is doing <br>
+        what’s best for YOU, not us.</p>
+</div>
+<div class="top1">
+    <h1>COMMISSION-FREE</h1>
+    <p>Commissions suck the life out of your financial portfolio. <br>
+        Our transparent fee schedule makes it clear and easy to <br>
+        understand how we get paid. No hidden fees, ever..</p>
+</div>
+<div class="top2">
+    <h1>CFP®️ PROFESSIONAL</h1>
+    <p>A highly desired, and not-easy-to-achieve designation that <br> ensures we’re always improving ourselves and our knowledge <br>so we can serve you better.</p>
+</div>
+</div>
+</div>
+<div class="bg">
+    <img src="playimg.png" alt="">
+</div>
+<div class="too">
+    <h1><i>“But in the end, financial decisions aren’t about getting <br>
+    rich. They’re about getting <br> what you want—getting happy.”</i></h1>
+    <p>Carl Richards, The Behavior Gap</p>
+</div>
+<div class="class">
+    <h1>Life Managed Case Studies</h1>
+    <p> Hiii!!!!Sunshine. Have a great day dude</p>
+<div class="main">
+  <div class="lss">
+<img src="https://omninos.co.in/lifeManaged/round-1.png" alt=""><br>
+<h2>WORK OPTIONAL</h2><br>
+<pre>
+Mark and Jennifer don’t <br>
+  have a set date for <br>
+   retirement — not <br>
+ because they can’t retire,  <br>
+ but because they’re not <br> 
+  sure they ever want to  <br> 
+      stop working <br> 
+       completely.</pre> 
+       <div class="btn">
+<button>CLICK ME!</button>
+       </div>
+</div>  
+
+<div class="roh">
+    <img src="https://omninos.co.in/lifeManaged/round-2.png" alt="">
+    <h2>RETIRED</h2>
+    <pre>
+        Mark and Jennifer don’t <br>
+          have a set date for <br>
+           retirement — not <br>
+         because they can’t retire,  <br>
+         but because they’re not <br> 
+          sure they ever want to  <br> 
+              stop working <br> 
+               completely.</pre>
+<div class="bn"> 
+        <button>CLICK ME!</button>
+</div> 
+        </div> 
+<div class="roh1">
+    <img src="https://omninos.co.in/lifeManaged/round-3.png" alt="">
+    <h2 class="neir">NEIRING</h2>  
+    <pre>
+        Mark and Jennifer don’t <br>
+          have a set date for <br>
+           retirement — not <br>
+         because they can’t retire,  <br>
+         but because they’re not <br> 
+          sure they ever want to  <br> 
+              stop working <br> 
+               completely.</pre>
+<div class="bn">
+    <button>CLICK ME!</button>
+</div> 
+</div>
+</div> 
+</div>
+<div class="footer">
+<div class="footer1">
+    <h1>ABOUT LIFE MANAGED</h1>
+    <p>The material on our website is for informational purposes only. <br>
+        We are not  asking you to buy or sell a security and are not <br> offering you investment advice.
+        Information on our website is <br> believed to be reliable. 
+        Please understand it is not guaranteed. <br> Past performance is not a guarantee.
+        It is also not reliable <br>indicator of future results. 
+        Investing means taking risks.
+        Your <br>account value could decline or rise a lot<br><br><br><br><br><br>
+        © 2020 LifeManaged All rights reserved.</p>
+</div>
+<div class="footer2">
+    <h1>OUR LINKS</h1>
+<ul class="link">
+    <li>Home</li>
+    <li>About</li>
+    <li>How we work</li>
+    <li>How we paid</li>
+    <li>Scvhedule call</li>
+</ul>
+</div>
+<div class="footer3">
+    <h1>CONTACT US</h1>
+    <p>134 N. Central Ave., Suite 104 <br>
+    Phoenix, AZ 85012 <br>
+    phone:(602)931-5043 <br>
+    Email:info@lifemanged.com</p>
+<img src="" alt="A" class="notf1">
+<img src="" alt="B" class="notf2">
+<img src="" alt="C" class="notf3">
+</div>
+</div>
+</div>
+</body>
+</html>
